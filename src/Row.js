@@ -26,8 +26,10 @@ export default function Row(props) {
         {movies.map((movie) => (
           <img
             key={movie.id}
-            className="row_poster"
-            src={`${base_url}${movie.poster_path}`}
+            className={`row_poster ${props.isLargeRow && "row_posterLarge"}`}
+            src={`${base_url}${
+              props.isLargeRow ? movie.poster_path : movie.backdrop_path
+            }`}
             alt={movie.name}
           />
         ))}
