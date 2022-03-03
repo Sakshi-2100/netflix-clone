@@ -10,14 +10,14 @@ export default function Row(props) {
     //[] is used to run the row only once
     async function fetchData() {
       const request = await axios.get(props.fetchUrl);
-      // console.log(request.data.results);
+      // console.log(request);
       setMovies(request.data.results);
       return request;
     }
     fetchData();
   }, [props.fetchUrl]);
 
-  console.log(movies);
+  // console.log(movies);
 
   return (
     <div className="row">
