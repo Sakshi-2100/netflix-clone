@@ -29,6 +29,6 @@ It uses [The MovieDB Api](https://www.themoviedb.org/documentation/api) to searc
 
 ### Video Walktrough
 
-![](https://github.com/Sakshi-2100/netflix-clone/blob/main/netflix-demo.gif.mp4)
+![](https://github.com/Sakshi-2100/netflix-clone/blob/main/netflix-demo.gif)
 
 Please feel free to create a pull request and submit any issues!
